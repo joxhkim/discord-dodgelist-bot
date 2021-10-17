@@ -58,4 +58,4 @@ async def lookup(ctx, player_tag):
         await ctx.reply("Player " + '"' + player_tag + '"' + " does not exist on the dodge list.")
 
 
-bot.run(TOKEN)
+bot.run(getenv('TOKEN'))
